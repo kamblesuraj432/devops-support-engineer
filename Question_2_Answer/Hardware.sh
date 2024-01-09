@@ -25,9 +25,10 @@ echo "Kernel version:"
 sudo uname -r
 
 # CPU - Virtual cores
-echo "CPU - Virtual cores, CPU - Clock speed,CPU - Architecture "
+echo "CPU - Virtual cores, CPU - Clock speed,CPU - Architecture: "
 lscpu
 # or
+echo "CPU - Virtual cores, CPU - Clock speed,CPU - Architecture: "
 lscpu | grep -E 'Architecture|CPU\(s\)|MHz' 
 
 # Disk - Mounted/Unmounted volumes, type, storage
