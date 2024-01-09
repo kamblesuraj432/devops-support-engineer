@@ -18,3 +18,5 @@ sudo ./clean_audio.sh 10hrs
 ```bash
 sudo ./clean_audio.sh 5hrs
 ```
+![image](https://github.com/kamblesuraj432/devops-support-engineer/assets/140583784/6043b1c1-cafd-4210-a229-29b8664b9abe)
+
