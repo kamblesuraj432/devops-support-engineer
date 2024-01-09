@@ -1,5 +1,6 @@
 # Use Ubuntu latest as the base image
 FROM ubuntu
+WORKDIR /surajfolder
 # Update package lists and install required packages
 RUN apt-get update && apt-get install -y \
     telnet \
