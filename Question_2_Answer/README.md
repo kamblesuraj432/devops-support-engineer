@@ -2,7 +2,7 @@
 
 ## Copy file in your hardware server or clone file
 
-## Give exercise permission using below command
+## Give execution permission using below command
 ```bash
 sudo chmod 744 Hardware.sh
 ```
