@@ -7,3 +7,9 @@ sudo usermod -aG docker $USER && newgrp docker  # give the permission of current
 sudo docker build -t custom-ubuntu-image .
 # -t means tag - given the image name
 ```
+
+## Check docker Image using below command
+```bash
+sudo docker images
+# or sudo docker image ls
+```
