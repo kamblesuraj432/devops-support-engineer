@@ -58,8 +58,8 @@ sudo free | grep Mem | awk '{print $3/$2 * 100.0}'
 echo "Storage - Utilization:"
 sudo df -h --total | tail -n 1 | awk '{print $5}'
 
-# User Password Expiry
-echo "User Password Expiry:"
+# Highlight when current User Password Exipring
+echo "Current User Password Expiry:"
 sudo chage -l $(whoami) | grep "Password expires"
 
 # Networking - Bandwidth
