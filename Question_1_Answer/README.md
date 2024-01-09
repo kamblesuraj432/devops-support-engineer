@@ -1,6 +1,6 @@
 # Docker
 
-## Creating docker image form Dockerfile Command is Below
+## Creating docker image from Dockerfile
 ```bash
 # using 'sudo su' is not a good practice.
 sudo usermod -aG docker $USER && newgrp docker  # give the permission of current user
