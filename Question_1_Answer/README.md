@@ -23,6 +23,6 @@ sudo docker run -d -it --name ubuntu-container custom-ubuntu-image
 ```
 
 ## image
-```bash
+
 ![image](https://github.com/kamblesuraj432/devops-support-engineer/assets/140583784/7fa6fba5-dd9a-41b4-bb63-5e6127872315)
-```
+
