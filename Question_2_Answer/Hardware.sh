@@ -22,7 +22,7 @@ sudo cat /etc/os*
 
 # Kernel version
 echo "Kernel version:"
-uname -r
+sudo uname -r
 
 # CPU - Virtual cores
 echo "CPU - Virtual cores, CPU - Clock speed,CPU - Architecture "
